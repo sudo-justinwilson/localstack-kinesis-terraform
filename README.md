@@ -19,7 +19,7 @@ This repo builds the following:
 3) In a text editor, edit the ${REPO}/variables.tf file and change the path variable to the absolute path of the repository. (The 'source' directive in the 'docker_container.mounts resource only seems to accept absolute paths)
 4) Install Terraform by following instructions [here](https://learn.hashicorp.com/terraform/getting-started/install.html)
 5) Once Terraform is installed and the terraform command is available, run the following commands to build the environment
-..* $ `terraform init`
-..* $ `terraform plan`  		# this command ensures that the syntax is okay
-..* $ `terraform apply`		# this command may need to be run several times to ensure all resources are created correctly
++ $ `terraform init`
++ $ `terraform plan`  		# this command ensures that the syntax is okay
++ $ `terraform apply`		# this command may need to be run several times to ensure all resources are created correctly
 6) On completion, point your browser at http://localhost:8080 to view the localstack resources that have been created.
