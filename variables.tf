@@ -43,5 +43,5 @@ variable "stream_name" {
 variable "path" {
   type        = string
   description = "The path to the current directory"
-  default = "/home/justinwilson/workspaces/git/new-localstack"
+  default = "/home/justinwilson/workspaces/git/localstack-kinesis-terraform"
 }
