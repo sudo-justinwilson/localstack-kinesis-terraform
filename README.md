@@ -12,6 +12,13 @@ This repo builds the following:
 - An S3 bucket called "s3:::tf-test-bucket"
 - A Docker container that generates random numbers and sends the random data to Kinesis.
 
+## Modules
+Each directory in the 'modules/' directory is a Terraform module, that can be reused in other projects.
+Dependencies can be controlled via the `depends_on` directive in the root './outputs.tf' file:
+- docker
+- kinesis
+- localstack
+
 ## To build
 1) Clone this repository
 ..* $ git clone https://github.com/sudo-justinwilson/localstack-kinesis-terraform.git
@@ -23,3 +30,7 @@ This repo builds the following:
 + $ `terraform plan`  		# this command ensures that the syntax is okay
 + $ `terraform apply`		# this command may need to be run several times to ensure all resources are created correctly
 6) On completion, point your browser at http://localhost:8080 to view the localstack resources that have been created.
+
+## To destroy environment
+1) When we want to tear down the environment, run the follwoing command from the root directory of the repo:
++ `terraform destroy`
