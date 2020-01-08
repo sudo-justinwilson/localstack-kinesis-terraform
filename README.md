@@ -2,7 +2,7 @@
 
 This repository builds the following components:
 
-![localstack kinesis diagram](https://https://github.com/sudo-justinwilson/localstack-kinesis-terraform/master/localstack-diagram.png)
+![localstack kinesis diagram](https://github.com/sudo-justinwilson/localstack-kinesis-terraform/blob/master/localstack-diagram.png)
 
 ## Getting Started
 
