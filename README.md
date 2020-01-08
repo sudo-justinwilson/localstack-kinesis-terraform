@@ -22,8 +22,7 @@ This repo builds the following:
 
 Use the following steps to deploy the stack.
 
-1) Clone this repository
-..* $ git clone https://github.com/sudo-justinwilson/localstack-kinesis-terraform.git
+1) Clone the repository:
 
 ```
 git clone https://github.com/sudo-justinwilson/localstack-kinesis-terraform.git
